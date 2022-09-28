@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="home.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+</head>
+<body>
+    <div class="text">
+        <div class="semantic">
+            <h1>SEMANTIC HTML</h1>
+            <p>
+                <b>Semantic HTML</b> is the proper use of HTML to emphasize the semantics, or the meaning, of content
+                in wed pages and web applications rather tha simply defining its appearance.
+                Traditional web browsers and numerous other user agents process Semantic HTML. CSS is also used to
+                suggest its appearance to users.
+            </p>
+            <h2>why should we use semantic HTML</h2>
+            <P>
+                Semantically valid HTML helps screen readers, search engines, and other user devices decide the
+                context and significance of web content. To effectively represent content meaning, developers choose
+                appropriate HTML elements regarding the intrinsic meaning of a web page rather than how they appear
+                visually.
+            </P>
+            <h2>Five main benefits of using semantic HTML:</h2>
+            <ul>
+                <li>Lighter code</li>
+                <li>Maintainable code</li>
+                <li>Accessibility</li>
+                <li>Search visibility</li>
+                <li>Future-proofing</li>
+            </ul>
+            <h2>text-level html semantic</h2>
+            <p>
+                In HTML, text-level elements such as <li> em, cite, and strong</li> add semantic data within
+                <i>phrasing</i> content, to clearly indicate stress, emphasis, citations, and strong importance, to
+                name a few examples.
+            </p>
+            <h2>Sectioning HTML semantics</h2>
+            <p>
+                With the progress of HTML5, new elements are now available that add semantic meanings to entire
+                sections of web page sections, including
+                <li>nav, header, aside, and footer.</li>
+            </p>
+            <h2>Structured Metadata - beyond Semantic HTML</h2>
+            <P>
+                Several technologies build on HTML syntax to signify objects, such as events,
+                organization, products and people, to achieve more precise semantics than those
+                achievable only with HTML.
+                For example, search engines are already using formats such as <i>Microformats</i>,
+                RDFa, and <i>Microdatas</i> to obtain meaningful data from a web page as part of the
+                next era of the Semantic Web.
+            </P>
+        </div>
+        <div class="stylings">
+            <h1>WHY IS IT BETTER TO WRITE INTERNAL STYLLING IN THE HEAD AND NOT THE BODY?</h1>
+            <p>
+                It is better to put internal styling inside the head because when the CSS is declared before the body
+                starts, it
+                enables the styles to load faster. This is the reason users see styles like background color before the
+                content
+                (in the case of slow network connection).
+            </p>
+    
+            <p> Also, if the styles are somewhere in the body, the browser has to re-render the page (new and old when
+                loading)
+                when the styles declared has been parsed.
+                This means that you can use the style tag everywhere you want but the only implications are decreased page
+                performance due to possible reflows/repaints once the browser hits styles further down in the page.
+                Putting CSS in body means it is loaded later.
+            </p>
+    
+            <p>the most recent versions of the HTML spec now permits the <i>style</i> tag within body elements.
+                Also the <mark>scope</mark> attribute which used to be prerequisite to have a style tag in the body is now
+                obsolete.
+                This means, that we can use the <i>style</i> tag everywhere you want, the only implications are decreased
+                page perfomance due to possible reflows/repaints once the browserhits styles further down in the page tree.
+            </p>
+            <div class="how">
+                <h2>How to prevent a user from manually adjusting the textarea element</h2>
+                <p>To prevent a text field from being resized, I can use the <mark>CSS resize</mark> property with its "none" value.
+                    Adding this piece of code to my textarea style : textarea{resize: none; }
+                    then I can make use of the <i>height</i> and <i>width</i> properties to define a fixed height and width for the textarea element.
+                </p>
+                <h2>OTHER TARGET ATTRIBUTES</h2>
+                <ol>
+                    <li>Parent : The target attribute specifies where the linked page or form response will be opened. The target="_parent" value opens the page in the parent frame (fram, tab, or window). If no parent frame can be detected, the page will display in the current frame.</li>
+                    
+                    <li>Self : This attribute is used to open the linked document in the same frame as it was clicked (this is default)</li>
+                    
+                    <li>Top : This attribute specifies that the linked page or form response will be opened in the topmost frame. The topmost frame is the full browser tab and window.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

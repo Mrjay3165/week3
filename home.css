@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text {
+    background-color: grey;
+    display: flex;
+    color: white;
+}
+
+.semantic {
+    border: 5px solid green;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.semantic h2 {
+    text-transform: capitalize;
+    padding: 10px;
+    text-align: center;
+}
+
+.semantic p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.semantic ul {
+    list-style: inside;
+    text-align: left;
+}
+
+.semantic li {
+    padding: 5px;
+}
+
+
+.stylings {
+    border: 5px solid green;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.stylings h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.stylings p {
+    padding: 10px;
+    text-align: justify;
+}
+
+
+.how{
+    border: 5px solid green;
+    margin: 35px 0;
+    padding: 5px;
+}
+.how h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.how li{
+    list-style: inside;
+    text-align: justify;
+}
+.how p{
+    text-align: justify;
+}

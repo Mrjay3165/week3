@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: linear-gradient(180deg, black, green);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu a:hover {
+    color: rgb(43, 240, 43);
+    transition: 0.3s;
+}
+
+.page h3 {
+    padding: 30px 0;
+    font-size: 50px;
+    font-weight: 150px;
+}
+
+.page p {
+    margin: 30px 0;
+    font-size: 20px;
+}
+.page a{
+    color: white;
+}
+.page a:hover {
+    color: greenyellow;
+}
+
+.button a{
+    margin: 40px 0;
+    font-size: 20px;
+    font-weight: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+.button .get, .view {
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+}
+
+.button .get:hover, .view:hover {
+    background-color: rgb(43, 240, 43);
+    transition: 0.3s;
+}
+
+section {
+    color: white;
+    padding: 0 40px 20px;
+    background-color: rgba(0, 0, 0,0.8);
+}
+
+
+
+
